@@ -1,0 +1,9 @@
+﻿@using FormFactory
+@using PetFinder.Domain.Entities
+
+@{
+    ViewBag.Title = "View";
+}
+
+
+@FF.PropertiesFor(new Raca()).Render(Html);
